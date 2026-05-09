@@ -1,4 +1,4 @@
-# 🚀 Machine Learning — Projects & Algorithms
+# 🚀 Machine Learning Engineering — From Scratch to Production
 
 <div align="center">
 
@@ -6,105 +6,53 @@
 [![Stars](https://img.shields.io/github/stars/Vaishnavi-Dubey/Machine-Learning-.svg?style=for-the-badge)](https://github.com/Vaishnavi-Dubey/Machine-Learning-/stargazers)
 
 ![Python](https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 
 </div>
 
-> A comprehensive collection of Machine Learning projects — from classical algorithms (Decision Trees, Random Forest) to production-ready applications including **Healthcare Prediction**, **Hate Speech Detection**, **Real Estate Price Prediction**, and **Movie Sentiment Analysis**.
+> A high-caliber machine learning engineering library — featuring **from-scratch NumPy implementations** of core algorithms and **full-stack production applications** in Healthcare, NLP, and Real Estate.
 
 ---
 
 ## ✨ Key Features
 
-- 🏥 **Healthcare ML** — Heart disease and general disease prediction using clinical datasets
-- 🛡️ **Hate Speech Detector** — Flask web app with trained NLP model for detecting toxic content
-- 🏠 **Real Estate Price Prediction** — End-to-end pipeline with Flask API and web frontend
-- 🎬 **Movie Sentiment Analysis** — NLP-based sentiment classification on movie reviews
-- 🌳 **Classical Algorithms** — Decision Tree (Classification & Regression), Random Forest implementations
-- 🎨 **Creative ML** — Cartoon-style image transformation using OpenCV
-- 🤖 **PAL (Program-Aided Language)** — Experimental notebook on LLM reasoning
-
----
-
-## 🧠 Tech Stack
-
-| Component | Technology |
-|-----------|-----------|
-| **Language** | Python 3.x |
-| **ML Framework** | Scikit-learn |
-| **NLP** | NLTK, TF-IDF |
-| **Computer Vision** | OpenCV |
-| **Web Framework** | Flask |
-| **Data Processing** | Pandas, NumPy |
-| **Visualization** | Matplotlib, Seaborn |
-| **Notebooks** | Jupyter Notebook |
-
----
-
-## 🏗️ Architecture / How It Works
-
-The repository contains both **standalone notebooks** for algorithm exploration and **full-stack applications** with web interfaces:
-
-```
-┌─────────────────────────────────────────────────┐
-│           Standalone Notebooks                  │
-│  DecisionTree ─ RandomForest ─ Sentiment ─ PAL  │
-└─────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────┐
-│        Production Applications                  │
-│                                                 │
-│  Hate Speech Detector    Real Estate Predictor  │
-│  ┌─────────────────┐    ┌──────────────────┐   │
-│  │ Flask API       │    │ Flask API        │   │
-│  │ Trained Model   │    │ Pickle Model     │   │
-│  │ Web UI          │    │ HTML/CSS/JS UI   │   │
-│  └─────────────────┘    └──────────────────┘   │
-│                                                 │
-│  Healthcare Prediction                          │
-│  ┌──────────────────────┐                      │
-│  │ Heart Disease Model  │                      │
-│  │ Disease Prediction   │                      │
-│  │ Clinical Datasets    │                      │
-│  └──────────────────────┘                      │
-└─────────────────────────────────────────────────┘
-```
+- 🏗️ **Math-to-Code Mastery** — From-scratch implementations of Linear Regression, Logistic Regression, KNN, K-Means, and PCA using only NumPy.
+- 🏥 **Healthcare Solutions** — Heart disease and clinical diagnosis systems.
+- 🛡️ **Production-Ready NLP** — Full-stack Hate Speech detection and Sentiment Analysis apps.
+- 🏠 **Real Estate Ecosystem** — End-to-end price prediction with Flask API and UI.
+- 🎨 **Computer Vision** — OpenCV-powered image stylization and transformation.
 
 ---
 
 ## 📂 Project Structure
 
-```
+```text
 Machine-Learning-/
-├── ML_Healthcare/                    # Healthcare prediction suite
-│   ├── HeartDiseasePrediction.ipynb  # Heart disease classification
-│   ├── diseasePrediction.ipynb      # General disease prediction
-│   ├── Training.csv                 # Training dataset
-│   └── Testing.csv                  # Test dataset
-├── hate_speech_detector/            # Flask web app for hate speech
-│   ├── app.py                       # Flask server
-│   ├── export_model.py              # Model training & export
-│   ├── requirements.txt             # Dependencies
-│   ├── templates/                   # HTML templates
-│   └── static/                      # CSS/JS assets
-├── real-estate-price-prediction/    # House price prediction
-│   ├── price-prediction.ipynb       # Data science pipeline
-│   ├── server.py                    # Flask API
-│   ├── util.py                      # Prediction utilities
-│   ├── app.html / app.css / app.js  # Web frontend
-│   └── *.pickle / *.json            # Trained model artifacts
-├── DecisionTreeClassification.ipynb # Decision Tree classifier
-├── DecisionTreeRegression.ipynb     # Decision Tree regressor
-├── RandomForest.ipynb               # Random Forest ensemble
-├── Movie Sentiment Analysis.ipynb   # NLP sentiment classification
-├── HateDetection.ipynb              # Hate speech model training
-├── Cartoon_opencv.ipynb             # Image cartoonification
-├── PAL.ipynb                        # Program-Aided Language
+├── supervised/          # From-scratch Supervised Learning (NumPy)
+├── unsupervised/        # From-scratch Unsupervised Learning (NumPy)
+├── preprocessing/       # Feature Engineering & Scaling (NumPy)
+├── evaluation/          # Model Evaluation Metrics (NumPy)
+├── projects/            # Production-Ready Full-Stack Applications
+│   ├── ML_Healthcare/   # Heart disease & disease prediction
+│   ├── hate_speech/     # Flask Hate Speech Detector
+│   ├── real_estate/     # Price Prediction Pipeline
+│   └── notebooks/       # Research & Lab Archives
 └── README.md
 ```
+
+---
+
+## 🧠 Master Concept Checklist (Scratch Implementations)
+
+| Category | Concept | Implementation | Status |
+| :--- | :--- | :--- | :---: |
+| **Supervised** | Linear Regression | `supervised/linear_regression.py` | ✅ |
+| **Supervised** | Logistic Regression | `supervised/logistic_regression.py` | ✅ |
+| **Supervised** | K-Nearest Neighbors | `supervised/knn.py` | ✅ |
+| **Unsupervised** | K-Means Clustering | `unsupervised/kmeans.py` | ✅ |
+| **Unsupervised** | PCA (Reduction) | `unsupervised/pca.py` | ✅ |
 
 ---
 
@@ -116,55 +64,16 @@ git clone https://github.com/Vaishnavi-Dubey/Machine-Learning-.git
 cd Machine-Learning-
 
 # Install core dependencies
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter opencv-python flask nltk
-
-# Launch Jupyter for notebooks
-jupyter notebook
-
-# Run hate speech detector app
-cd hate_speech_detector
-pip install -r requirements.txt
-python app.py
+pip install numpy pandas scikit-learn matplotlib seaborn flask opencv-python
 ```
 
 ---
 
-## ▶️ Usage
+## 📈 Impact / Highlights
 
-### Notebooks
-Open any `.ipynb` file in Jupyter Notebook or Google Colab and run cells sequentially.
-
-### Hate Speech Detector Web App
-```bash
-cd hate_speech_detector
-python app.py
-# Visit http://localhost:5000
-```
-
-### Real Estate Price Predictor
-```bash
-cd real-estate-price-prediction
-python server.py
-# Open app.html in browser
-```
-
----
-
-## 📈 Impact / Learning / Highlights
-
-- 🏥 **Healthcare Impact** — Heart disease prediction achieving meaningful clinical accuracy
-- 🛡️ **NLP in Production** — Full-stack hate speech detection with Flask web deployment
-- 📊 **End-to-End Pipelines** — From raw data → EDA → feature engineering → model → deployment
-- 🧪 **Algorithm Comparison** — Side-by-side evaluation of Decision Trees, Random Forests, and ensemble methods
-- 🎯 **Real-World Datasets** — All projects use genuine datasets, not synthetic examples
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Add new algorithms, improve existing models, or enhance documentation.
-
-1. Fork → Branch → Commit → PR
+- 🎯 **Deep Intuition** — Algorithms implemented from first principles (Gradient Descent, Sigmoid, Eigen-decomposition).
+- ⚡ **Framework Proficiency** — Masterful use of Scikit-learn for high-level validation and NumPy for low-level logic.
+- 📊 **Commercial Ready** — Demonstrates the ability to build, train, and deploy ML models into web interfaces.
 
 ---
 
